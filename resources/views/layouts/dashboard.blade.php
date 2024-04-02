@@ -23,8 +23,6 @@
 
 <body class="antialiased">
 
-    <x-alert></x-alert>
-
     <x-sidebar></x-sidebar>
 
     <div class="p-4 sm:ml-64">

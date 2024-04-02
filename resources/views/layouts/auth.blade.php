@@ -21,9 +21,11 @@
     </style>
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-blue-400">
 
-    <div class="flex p-2 w-full h-screen justify-center items-center bg-blue-400">
+    <x-alert></x-alert>
+
+    <div class="flex p-2 w-full h-screen justify-center items-center">
         @yield('content')
     </div>
 
